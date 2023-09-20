@@ -1,0 +1,102 @@
+@media (max-width:1024px) {
+    .sam-widgets{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: center;
+    }
+    .right-side{
+        flex-direction: row;
+        gap: 14px;
+    }
+    .bestseller-card:nth-child(n+5){
+        display: none;
+    }
+    .wrapper-img img{
+        width: 324px;
+    }
+}
+@media (max-width:768px){
+    .container{
+        padding: 0 15px;
+    }
+    nav{
+        display: none;
+    }
+    .left-side-image img{
+        width: 100%;
+    }
+    .right-side{
+        flex-direction: column;
+    }
+    .right-side-image img{
+        width: 100%;
+    }
+    .bestseller-cards{
+        flex-wrap: wrap;
+    }
+    .bestseller-card{
+        width: 247px;
+    }
+    .wrapper-cart{
+        width: 717px;
+    }
+    .wrapper-img img{
+        width: 717px;
+    }
+    .box{
+        width: unset;
+    }
+    .box:nth-child(1){
+        border-left: none;
+        border-right: none;
+    }
+    .box:nth-child(2){
+        border-top: none;
+    }
+    .box:nth-child(3){
+        border-left: none;
+        border-right: none;
+    }
+    .box:nth-child(4){
+        border-right: none;
+        border-left: none;
+    }
+    .menu-row{
+        display: flex;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .menu-column{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .hamburger{
+        display: flex;
+    }
+}
+@media (max-width:376px){
+    .top-header{
+        justify-content: space-between;
+    }
+    .right-side-image img{
+        display: none;
+    }
+    .wrapper-img img{
+        width: 325px;
+    }
+    .box{
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+    .brands{
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-icon{
+        gap: 15px;
+    }
+    .menu-row{
+        gap: 20px;
+        flex-direction: column;
+    }
+}
